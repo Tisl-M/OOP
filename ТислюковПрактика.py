@@ -400,8 +400,6 @@ class InsuranceSimulationApp:
         self.stop_btn.config(state=tk.DISABLED)
         self.update_display()
 
-
-if __name__ == "__main__":
-    root = tk.Tk()
-    app = InsuranceSimulationApp(root)
-    root.mainloop()
+root = tk.Tk()
+app = InsuranceSimulationApp(root)
+root.mainloop()
